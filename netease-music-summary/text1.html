@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    .mouse {
+      border: 1px solid red;
+    }
+    .mouse:hover + .paras .para {
+      transition: all 1.2s;
+      transform: translateY(0);
+      opacity: 1;
+    }
+    .para {
+      transform: translateY(6px);
+      opacity: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 1： 从下往上 
+  2： 淡入
+  -->
+  <div class="mouse">鼠标移到这里出现</div>
+  <div class="paras">
+    <p class="para" style="transition-delay: 0.1s">这一年</p>
+    <p class="para" style="transition-delay: 0.2s">TA有46小时与音乐相伴</p>
+    <p class="para" style="transition-delay: 0.3s">在音乐的世界</p>
+    <p class="para" style="transition-delay: 0.4s">遇见你真好</p>
+  </div>
+</body>
+
+<ml>

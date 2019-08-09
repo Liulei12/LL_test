@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cat{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.maoshenti{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(http://s5.music.126.net/static_public/5c21db8d4684556c72180904/maoshenti.ad6177be5deba54a83a99ef58fe80047.png) no-repeat;
+    z-index: 2;
+}
+.maowei{
+    z-index: 1;
+    height:81px;
+    width:36px;
+    left: 20px;
+    top: -50px;
+    position: absolute;
+    background: url(http://s5.music.126.net/static_public/5c21db8d4684556c72180904/maowei.cebc9c6d99173d07009465c700b0eb21.png) no-repeat;
+    background-size: cover;
+}
+
+ 
